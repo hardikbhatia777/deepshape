@@ -1,0 +1,36 @@
+.flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+  }
+  
+  .gallery-item {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .gallery-image {
+    width: 500px;
+    height: auto;
+    border: 1px white solid;
+    margin: 5vh;
+    margin-bottom: 2vh;
+  }
+  
+  .image-description {
+    margin: 5vh;
+    font-size: x-large;
+    text-align: left;
+    margin-top: 5px;
+  }
+  
+.approach-main
+{
+    text-align: center;
+}
+
+.button
+{
+  margin: 2vh;
+}

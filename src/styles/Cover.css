@@ -1,0 +1,37 @@
+.cover-main
+{
+    margin-top: 20vh;
+    text-align: center;
+    color: white;
+}
+
+.cover-heading
+{
+    font-size: 100px;
+    font-family: karantina;
+}
+
+.cover-tagline
+{
+    font-size: x-large;
+    margin-top: 5vh;
+    font-size: larger;
+}
+
+.scroll-down
+{
+    margin: 20vh;
+    height: 100px;
+    width: 110px;
+}
+
+.laptops
+{
+    height: 25vw;
+    width: 80vw;
+}
+
+.cover-button
+{
+    margin: 5vh;
+}

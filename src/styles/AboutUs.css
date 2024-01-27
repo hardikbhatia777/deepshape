@@ -1,0 +1,15 @@
+.about-main
+{
+    background-size: contain;
+    height: 70vh;
+    width: auto;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(to right, rgba(255, 48, 91, 1), rgba(0,0,0,0.1)); /* Adjust opacity as needed */
+  }
+  

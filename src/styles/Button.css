@@ -1,0 +1,25 @@
+.button-main
+{
+    background-color: white;
+    color: black;
+    padding: 1.5vw;
+    font-size: xx-large;
+    font-weight: 550;
+}
+
+.approach-heading
+{
+    font-size: 80px;
+    color: white;
+    margin: 8vh;
+    text-align: left;
+}
+
+.underline {
+    bottom: -5px;
+    left: 0;
+    width: 700px; 
+    height: 2px; 
+    background-color: white;
+    color: white;
+}

@@ -1,0 +1,28 @@
+.nav__main{
+    background-color: transparent;
+    width: auto;
+    margin: 5vh 0vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav__logo{
+    height: 7vh;
+    margin: 0vh 15vh;
+}
+
+.nav__links
+{
+    color: white;
+    margin: auto;
+    margin-top: 0;
+    margin-right: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__link
+{
+    margin: 2.2vh 3vh;
+    font-size: 2vh;
+}
