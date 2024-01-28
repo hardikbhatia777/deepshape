@@ -34,3 +34,25 @@
 {
   margin: 2vh;
 }
+
+.approach-heading
+{
+    font-size: 80px;
+    color: white;
+    margin: 8vh;
+    text-align: left;
+}
+
+.underline {
+  bottom: -5px;
+  left: 0;
+  width: 700px; 
+  height: 2px; 
+  background-color: white;
+  color: white;
+}
+
+.button
+{
+  margin: 7vh;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../styles/OurApproach.css'; // Import CSS file for styling
+import '../styles/OurApproach.css';
 
 const FlexGallery = ({ images }) => {
   return (

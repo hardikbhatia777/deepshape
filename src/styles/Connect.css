@@ -1,0 +1,80 @@
+
+.connect-main
+{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.connect-underline {
+    bottom: -5px;
+    left: 0;
+    width: 400px; 
+    height: 2px; 
+    background-color: white;
+    color: white;
+}
+
+.connect-heading
+{
+    font-size: 80px;
+    color: white;
+    margin: 8vh;
+    padding-top: 3vh;
+    text-align: left;
+}
+
+.connect-left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.connect-phone
+{
+    height: 75vh;
+}
+
+
+.connect-right
+{
+    width: 60%;
+    text-align: left;
+}
+
+
+.connect-content
+{
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.connect-text-small {
+    width: 20vw;
+    height: 30px;
+    padding: 20px; 
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: white;
+    margin: 1vh;
+    resize: none;
+    font-size: 24px;
+  }
+  .connect-text-big {
+    width: 43vw;
+    height: 80px;
+    padding: 20px; 
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: white;
+    margin: 1vh;
+    resize: none;
+    font-size: 24px;
+  }
+
+
+  
