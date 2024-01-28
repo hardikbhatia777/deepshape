@@ -14,9 +14,9 @@ export default function AboutUs() {
       <div className="overlay"></div>
       <div className="aboutus-content">
       <div className="services-home-heading">
-        SERVICES
-        <div className="services-underline"></div>
-        <p className="services-main-content">
+        ABOUT DEEPSHAPE
+        <div className="aboutus-underline"></div>
+        <p className="aboutus-main-content">
           AI in Fashion Design market integrates advanced technologies to
           revolutionize the fashion industry. AI applications optimize design
           processes, enhance supply chain efficiency, and provide personalized

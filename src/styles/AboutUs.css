@@ -17,7 +17,7 @@
   .aboutus-underline {
     bottom: -5px;
     left: 0;
-    width: 400px; 
+    width: 800px; 
     height: 2px; 
     background-color: white;
     color: white;
@@ -25,5 +25,12 @@
 
 
 .aboutus-content {
-    z-index: 100; /* Increase z-index */
+    z-index: 100; 
+}
+
+.aboutus-main-content
+{
+    font-size: x-large;
+    font-weight: 300;
+    width: 40%;
 }
