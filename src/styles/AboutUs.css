@@ -1,36 +1,39 @@
-.about-main
-{
+.about-main {
+    position: relative;
     background-size: contain;
-    height: 70vh;
+    height: auto;
     width: auto;
     color: white;
+    height: auto;
+    background: linear-gradient(to right, rgba(255, 48, 91, 1), rgba(0,0,0,0.1));
 }
 
 .overlay {
     position: absolute;
     width: 100%;
-    height: 70vh;
+    height: 100%; 
     z-index: 0;
     background: linear-gradient(to right, rgba(255, 48, 91, 1), rgba(0,0,0,0.1)); /* Adjust opacity as needed */
-  }
+}
 
-  .aboutus-underline {
+.aboutus-underline {
     bottom: -5px;
     left: 0;
-    width: 800px; 
+    width: 90vh; /* Adjust as needed */
     height: 2px; 
     background-color: white;
     color: white;
 }
 
-
 .aboutus-content {
     z-index: 100; 
 }
 
-.aboutus-main-content
-{
-    font-size: x-large;
+.aboutus-main-content {
+    font-size: 2.7vh;
     font-weight: 300;
-    width: 40%;
+    width: 60%;
+    max-width: 800px; /* Adjust as needed */
+    overflow: hidden;
+    padding-bottom: 20vh;
 }

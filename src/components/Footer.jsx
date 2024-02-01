@@ -22,7 +22,7 @@ export default function Footer() {
           <img className="footer-box-link" alt='' src={twitter} />
           <img className="footer-box-link" alt='' src={instagram} />
         </div>
-        <div className="footer-box-item">All rights reserved. © Design Agency innovation, Pvt Ltd.2023</div>
+        <div className="footer-box-item">All rights reserved. © Designaigence innovation, Pvt Ltd.2023</div>
         <div className="footer-box-item">Privacy Policy | Terms of Service</div>
       </div>
     </div>

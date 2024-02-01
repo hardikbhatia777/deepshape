@@ -10,14 +10,14 @@
 .services-underline {
     bottom: -5px;
     left: 0;
-    width: 400px; 
+    width: 50vh; 
     height: 2px; 
     background-color: white;
     color: white;
 }
 
 .services-home-heading {
-    font-size: 80px;
+    font-size: 8.5vh;
     color: white;
     margin: 8vh;
     padding-top: 3vh;
@@ -42,7 +42,7 @@
 
 .services-main-content
 {
-    font-size: x-large;
+    font-size: 1.5vw;
     font-weight: 300;
 }
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import '../styles/Home.css'
 import Cover from '../components/Cover'
 import AboutUs from '../components/AboutUs'
@@ -11,7 +10,6 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <div className=''>
-      <Navbar/>
       <Cover/>
       <AboutUs/>
       <OurApproach/>
