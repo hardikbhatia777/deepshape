@@ -1,0 +1,98 @@
+.about-header-main {
+  background-color: #121212;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-heading-heading {
+  color: white;
+  text-align: center;
+  font-size: 10vh;
+  margin-top: 13vh;
+}
+
+.about-heading-content {
+  color: white;
+  text-align: center;
+  font-size: 2.2vh;
+  margin-top: 2vh;
+  width: 50vw;
+  font-weight: 300;
+  margin-bottom: 10vh;
+}
+
+.about-content-main {
+  background-color: #121212;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: auto;
+  flex: wrap;
+}
+
+.left {
+  width: 45%;
+  margin: 10vh;
+}
+
+.right {
+  width: 45%;
+  margin: 2vh;
+}
+
+.digit {
+  height: 15vh;
+}
+
+.about-content-heading {
+  margin: 1vh;
+  font-size: 4vh;
+}
+
+.underline-1 {
+  bottom: -5px;
+  left: 0;
+  width: 40vh;
+  height: 2px;
+  background-color: white;
+  color: white;
+}
+
+.underline-2 {
+  bottom: -5px;
+  left: 0;
+  width: 65vh;
+  height: 2px;
+  background-color: white;
+  color: white;
+}
+
+.underline-3 {
+  bottom: -5px;
+  left: 0;
+  width: 50vh;
+  height: 2px;
+  background-color: white;
+  color: white;
+}
+
+.about-content-desc {
+  font-weight: 300;
+  font-size: 2.2vh;
+  margin-top: 2vh;
+}
+
+.pic {
+  height: 30vh;
+}
+
+.center-aligned {
+  display: flex;
+  justify-content: center;
+}
