@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import AboutHeading from '../components/AboutMain'
+import WhoAreWe from '../components/WhoAreWe'
 
 export default function About() {
   return (
     <div>
-      <AboutHeading/>
+      <WhoAreWe/>
       <Footer/>
     </div>
   )

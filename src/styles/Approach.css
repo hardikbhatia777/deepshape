@@ -1,0 +1,153 @@
+.about-header-main {
+  background-color: #121212;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-heading-heading {
+  color: white;
+  text-align: center;
+  font-size: 10vh;
+  margin-top: 13vh;
+}
+
+.about-heading-content {
+  color: white;
+  text-align: center;
+  font-size: 2.2vh;
+  margin-top: 2vh;
+  width: 50vw;
+  font-weight: 300;
+  margin-bottom: 10vh;
+}
+
+.about-content-main {
+  background-color: #121212;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: auto;
+  flex: wrap;
+}
+
+.left {
+  width: 45%;
+  margin: 10vh;
+}
+
+.right {
+  width: 45%;
+  margin: 2vh;
+}
+
+.digit {
+  height: 15vh;
+  width: fit-content;
+  margin: 2vh;
+}
+
+.about-content-heading {
+  margin: 1vh;
+  font-size: 4vh;
+}
+
+.underline-1 {
+  bottom: -5px;
+  left: 0;
+  width: 40vh;
+  height: 2px;
+  background-color: white;
+  color: white;
+}
+
+.underline-2 {
+  bottom: -5px;
+  left: 0;
+  width: 65vh;
+  height: 2px;
+  background-color: white;
+  color: white;
+}
+
+.underline-3 {
+  bottom: -5px;
+  left: 0;
+  width: 50vh;
+  height: 2px;
+  background-color: white;
+  color: white;
+}
+
+.about-content-desc {
+  font-weight: 300;
+  font-size: 2.2vh;
+  margin-top: 2vh;
+}
+
+.pic {
+  height: 30vh;
+  width: fit-content;
+}
+
+.center-aligned {
+  display: flex;
+  justify-content: center;
+}
+
+.right-aligned {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.right-margin {
+  margin-right: 10vh;
+}
+
+.left-aligned {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.left-margin {
+  margin-left: 10vh;
+}
+
+.approach-content-heading {
+  font-size: 8vh;
+}
+
+.approach-content-desc {
+  font-weight: 300;
+  font-size: 2.2vh;
+  margin-top: 2vh;
+  text-align: justify;
+}
+
+.whatis-content-desc {
+  font-size: 2.8vh;
+  font-weight: 300;
+}
+
+.whatis-pic {
+    height: 40vh;
+}
+
+.scroll
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-pic
+{
+    height: 10vh;
+}
