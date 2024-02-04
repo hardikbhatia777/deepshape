@@ -11,18 +11,27 @@
     margin: 0vh 15vh;
 }
 
-.nav__links
-{
+.nav__links {
     color: white;
     margin: auto;
     margin-top: 0;
     margin-right: 20vh;
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    padding: 1vh;
 }
 
-.nav__link
-{
+.nav__link {
     margin: 2.2vh 3vh;
-    font-size: 2vh;
+    font-size: 2.5vh;
+    color: rgba(255, 255, 255, 0.534); 
+    transition: color 0.3s ease; 
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.nav__link.active {
+    color: white; 
+    font-weight: 300;
 }
