@@ -1,58 +1,56 @@
 .flex-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: white;
-  }
-  
-  .gallery-item {
-    margin-bottom: 0;
-    text-align: center;
-  }
-  
-  .gallery-image {
-    width: 25vw;
-    height: auto;
-    border: 1px white solid;
-    margin: 2vw;
-    margin-bottom: 2vh;
-  }
-  
-  .image-description {
-    margin: 5vh;
-    font-size: x-large;
-    text-align: left;
-    margin-top: 5px;
-  }
-  
-.approach-main
-{
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
 }
 
-.button
-{
+.gallery-item {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.gallery-image {
+  width: 25vw;
+  height: auto;
+  border: 1px white solid;
+  margin: 2vw;
+  margin-bottom: 2vh;
+}
+
+.image-description {
+  margin: 5vh;
+  font-size: x-large;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.approach-main {
+  text-align: center;
+}
+
+.button {
   margin: 2vh;
 }
 
-.approach-heading
-{
-    font-size: 8.5vh;
-    color: white;
-    margin: 8vh;
-    text-align: left;
+.approach-heading {
+  font-family: karantina;
+  font-size: 12vh;
+  color: white;
+  font-weight: 600;
+  margin: 8vh;
+  text-align: left;
 }
 
 .underline {
   bottom: -5px;
   left: 0;
-  width: 80vh; 
-  height: 2px; 
+  width: 80vh;
+  height: 2px;
   background-color: white;
   color: white;
 }
 
-.button
-{
+.button {
   margin: 7vh;
 }

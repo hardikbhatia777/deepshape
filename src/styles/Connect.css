@@ -19,13 +19,24 @@
 
 .connect-heading
 {
-    font-size: 80px;
+    font-size: 12vh;
     color: white;
     margin: 8vh;
     padding-top: 3vh;
     text-align: left;
 }
 
+.karantina-font
+{
+    font-family: karantina;
+}
+
+.connect-content
+{
+    font-size: x-large;
+    color: white;
+    font-weight: 300;
+}
 .connect-left
 {
     display: flex;
@@ -47,11 +58,7 @@
 }
 
 
-.connect-content
-{
-    font-size: x-large;
-    font-weight: 300;
-}
+
 
 .connect-text-small {
     width: 20vw;

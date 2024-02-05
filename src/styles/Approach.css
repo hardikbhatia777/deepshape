@@ -10,8 +10,18 @@
 .about-heading-heading {
   color: white;
   text-align: center;
-  font-size: 10vh;
+  font-size: 15vh;
   margin-top: 13vh;
+}
+
+.karantina
+{
+  font-family: karantina;
+}
+
+.big
+{
+  font-size: 12vh;
 }
 
 .about-heading-content {
@@ -60,7 +70,7 @@
 .underline-1 {
   bottom: -5px;
   left: 0;
-  width: 40vh;
+  width: 70vh;
   height: 2px;
   background-color: white;
   color: white;
@@ -121,7 +131,7 @@
 }
 
 .approach-content-heading {
-  font-size: 8vh;
+  font-size: 12vh;
 }
 
 .approach-content-desc {

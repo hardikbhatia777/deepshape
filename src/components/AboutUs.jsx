@@ -13,9 +13,10 @@ export default function AboutUs() {
     <div className="about-main" style={divStyle}>
       <div className="overlay"></div>
       <div className="aboutus-content">
-      <div className="services-home-heading">
+      <div className="services-home-heading margin-top-about">
         ABOUT DEEPSHAPE
         <div className="aboutus-underline"></div>
+        </div>
         <p className="aboutus-main-content">
           AI in Fashion Design market integrates advanced technologies to
           revolutionize the fashion industry. AI applications optimize design
@@ -26,7 +27,6 @@ export default function AboutUs() {
           offers substantial opportunities for global expansion and
           collaboration.
         </p>
-        </div>
       </div>
     </div>
   );

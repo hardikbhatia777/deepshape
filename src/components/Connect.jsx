@@ -15,13 +15,10 @@ export default function Connect() {
       Message: ${formData.get("message")}
     `;
 
-  // Encode message for URL
   const encodedMessage = encodeURIComponent(message);
 
-  // Construct Gmail URL with mailto link and Gmail specific parameters
-  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=contact@deepshape.tech&su=New%20Message%20from%20your%20website&body=${encodedMessage}`;
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=contact@deepshape.tech&su=Feedback&body=${encodedMessage}`;
 
-  // Open the Gmail compose window
   window.open(gmailUrl);
   };
 
@@ -32,7 +29,8 @@ export default function Connect() {
       </div>
       <div className="connect-right">
         <div className="connect-heading">
-          CONNECT
+          <div className="karantina-font">
+          CONNECT</div>
           <div className="connect-underline"></div>
           <p className="connect-content">We would love to hear from you!</p>
           <form id="connect-form">

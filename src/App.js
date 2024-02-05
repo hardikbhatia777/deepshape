@@ -8,6 +8,7 @@ import Approach from "./pages/Approach";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Policy from "./pages/Policy"
+import Terms from "./pages/Terms";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/policy" element={<Policy/>}/>
+          <Route path="/terms" element={<Terms/>} />
         </Routes>
       </div>
     </Router>

@@ -18,7 +18,7 @@ export default function ApproachMain() {
       </div>
       <div className="about-content-main">
         <div className="left">
-          <div className="approach-content-heading">Collection of Data</div>
+          <div className="approach-content-heading karantina">Collection of Data</div>
           <div className="underline-1"></div>
           <div className="approach-content-desc">
             Data will decide and drive the innovation for the future,
@@ -41,7 +41,7 @@ export default function ApproachMain() {
           <img className="pic" src={pic2} alt="" />
         </div>
         <div className="right ">
-          <div className="approach-content-heading">Trend Analysis</div>
+          <div className="approach-content-heading karantina">Trend Analysis</div>
           <div className="underline-1"></div>
           <div className="approach-content-desc right-margin">
             DeepShape will pinpoint the key drivers of change. Leveraging its
@@ -53,7 +53,7 @@ export default function ApproachMain() {
       </div>
       <div className="about-content-main">
         <div className="left">
-          <div className="approach-content-heading">Design Generation</div>
+          <div className="approach-content-heading karantina big">Design Generation</div>
           <div className="underline-1"></div>
           <div className="approach-content-desc">
             DeepShape becomes your creative collaborator. Streamline and
