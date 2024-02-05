@@ -34,8 +34,8 @@ export default function Connect() {
           <div className="connect-underline"></div>
           <p className="connect-content">We would love to hear from you!</p>
           <form id="connect-form">
-            <input className="connect-text-small" placeholder="Your name*" name="name" />
-            <input type="email" className="connect-text-small" name="email" placeholder="Email*" />
+            <textarea className="connect-text-small" placeholder="Your name*" name="name" />
+            <textarea type="email" className="connect-text-small" name="email" placeholder="Email*" />
             <textarea type="tel" className="connect-text-small" name="phone" placeholder="Phone number*" />
             <textarea type="text" className="connect-text-small" name="city" placeholder="City*" />
             <textarea className="connect-text-big" name="message" placeholder="Your message"></textarea>
