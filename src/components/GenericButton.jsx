@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/Button.css'
 
-const CustomButton = ({ children }) => {
+const CustomButton = ({ children, onClick }) => {
   return (
-    <button className='button-main'>
+    <button className='button-main' onClick={onClick}>
       {children}
     </button>
   );
@@ -12,6 +12,7 @@ const CustomButton = ({ children }) => {
 
 CustomButton.propTypes = {
   children: PropTypes.node.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default CustomButton;
