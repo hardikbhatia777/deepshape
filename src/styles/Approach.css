@@ -58,7 +58,6 @@
 
 .digit {
   height: 15vh;
-  width: fit-content;
   margin: 2vh;
 }
 
@@ -102,7 +101,6 @@
 
 .pic {
   height: 30vh;
-  width: fit-content;
 }
 
 .center-aligned {
